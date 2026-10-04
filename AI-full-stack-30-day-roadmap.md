@@ -50,11 +50,11 @@
 Goal: Understand an AI application architecture diagram and decide on your technology stack.
 
 学习 / Learn：
-- [ ] 看 Andrej Karpathy 的视频 Introduction to Large Language Models，约 1 小时，建立“模型如何产生下一个词”的直觉。https://www.youtube.com/watch?v=zjkBMFhNj_g
+- [ ] 看 Andrej Karpathy 的视频 Introduction to Large Language Models（约 1 小时，建立“模型如何产生下一个词”的直觉）。英文原版：https://www.youtube.com/watch?v=zjkBMFhNj_g；B 站中文字幕版：https://search.bilibili.com/all?keyword=Karpathy%20Introduction%20to%20Large%20Language%20Models%20%E4%B8%AD%E6%96%87
   - Watch Andrej Karpathy's video "Introduction to Large Language Models" (about 1 hour) to build intuition for how models generate the next token.
 - [ ] 读 OpenAI 平台文档总览，理解模型层、推理 API 层、应用层、数据与检索层。https://platform.openai.com/docs
   - Read the OpenAI platform documentation overview to understand the model layer, inference API layer, application layer, and data/retrieval layer.
-- [ ] 浏览 Hugging Face LLM Course 第 0–1 章，了解开源模型生态。https://huggingface.co/learn/llm-course
+- [ ] 浏览 Hugging Face LLM Course 第 0–1 章，了解开源模型生态。英文原版：https://huggingface.co/learn/llm-course；中文教程：Datawhale《动手学大模型应用开发》https://github.com/datawhalechina/llm-universe
   - Browse chapters 0–1 of the Hugging Face LLM Course to learn about the open-source model ecosystem.
 
 练习 / Practice：
@@ -94,7 +94,7 @@ Goal: Understand that a token is the basic unit of both cost and capability.
 Goal: Write structured, reusable prompts.
 
 学习 / Learn：
-- [ ] OpenAI 提示工程指南。https://platform.openai.com/docs/guides/prompt-engineering
+- [ ] OpenAI 提示工程指南。英文原版：https://platform.openai.com/docs/guides/prompt-engineering；中文学习：Prompt Engineering Guide 中文版 https://www.promptingguide.ai/zh
   - Read the OpenAI prompt engineering guide.
 - [ ] Anthropic 提示工程长文，补充对比视角。https://www.anthropic.com/engineering/prompt-engineering
   - Read Anthropic's prompt engineering guide for a contrasting perspective.
@@ -204,7 +204,7 @@ Goal: Understand the ability to "turn text into numbers."
 学习 / Learn：
 - [ ] OpenAI Embeddings 指南。https://platform.openai.com/docs/guides/embeddings
   - Read the OpenAI Embeddings guide.
-- [ ] 3Blue1Brown 神经网络系列前几集，建立向量空间直觉。https://www.3blue1brown.com/topics/neural-networks
+- [ ] 3Blue1Brown 神经网络系列前几集，建立向量空间直觉。英文原版：https://www.3blue1brown.com/topics/neural-networks；B 站中英字幕版：https://search.bilibili.com/all?keyword=3Blue1Brown%20%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C
   - Watch the first few episodes of 3Blue1Brown's neural networks series to build intuition for vector spaces.
 
 练习 / Practice：
@@ -224,7 +224,7 @@ Goal: Build a usable retrieval system.
 学习 / Learn：
 - [ ] 了解 ANN 近似最近邻搜索的概念，比较内存实现与向量数据库（如 pgvector、Chroma）。https://github.com/pgvector/pgvector
   - Learn the ANN (approximate nearest neighbor) concept and compare in-memory implementations with vector databases such as pgvector and Chroma.
-- [ ] 读 Pinecone RAG 系列入门篇。https://www.pinecone.io/learn/series/rag/
+- [ ] 读 Pinecone RAG 系列入门篇。英文原版：https://www.pinecone.io/learn/series/rag/；中文 RAG 指南：https://www.promptingguide.ai/zh/techniques/rag
   - Read the introductory articles in Pinecone's RAG series.
 
 练习 / Practice：
@@ -302,7 +302,7 @@ Goal: Be able to read common open-source repositories, without needing to write 
 学习 / Learn：
 - [ ] 速通 Python 基础语法 1–2 小时：列表、字典、类型提示、包管理。
   - Spend 1–2 hours on Python basics: lists, dictionaries, type hints, and package management.
-- [ ] 浏览 Hugging Face Transformers 快速入门。https://huggingface.co/docs/transformers/index
+- [ ] 浏览 Hugging Face Transformers 快速入门。英文原版：https://huggingface.co/docs/transformers/index；中文教程可看 Datawhale《动手学大模型应用开发》https://github.com/datawhalechina/llm-universe
   - Browse the Hugging Face Transformers quick start.
 - [ ] 浏览 OpenAI Agents SDK，理解 Python 侧智能体写法（概念即可）。https://openai.github.io/openai-agents-python/
   - Browse the OpenAI Agents SDK to understand how agents are written in Python at a conceptual level.
@@ -609,15 +609,17 @@ Day 30 复盘与输出 / Day 30: Retrospective and Output：
 - Vercel：https://vercel.com/docs / Vercel
 
 课程与图书 / Courses and Books：
-- Hugging Face LLM Course：https://huggingface.co/learn/llm-course / Hugging Face LLM Course
-- DeepLearning.AI 短课程：https://www.deeplearning.ai/short-courses/ / DeepLearning.AI Short Courses
-- 3Blue1Brown 神经网络系列：https://www.3blue1brown.com/topics/neural-networks / 3Blue1Brown Neural Networks Series
-- Karpathy Introduction to Large Language Models：https://www.youtube.com/watch?v=zjkBMFhNj_g / Karpathy: Introduction to Large Language Models
-- Pinecone RAG 系列：https://www.pinecone.io/learn/series/rag/ / Pinecone RAG Series
+- Hugging Face LLM Course（英文原版）：https://huggingface.co/learn/llm-course；中文教程 Datawhale《动手学大模型应用开发》：https://github.com/datawhalechina/llm-universe / Hugging Face LLM Course (English); Chinese tutorial: Datawhale Hands-On LLM App Development
+- DeepLearning.AI 短课程（英文，部分提供中文字幕）：https://www.deeplearning.ai/short-courses/；B 站中文笔记/字幕搜索：https://search.bilibili.com/all?keyword=DeepLearning.AI%20%E4%B8%AD%E6%96%87 / DeepLearning.AI Short Courses (English; some include Chinese subtitles); Bilibili search for Chinese notes and subtitles
+- 3Blue1Brown 神经网络系列（英文原版）：https://www.3blue1brown.com/topics/neural-networks；B 站中英字幕版：https://search.bilibili.com/all?keyword=3Blue1Brown%20%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C / 3Blue1Brown Neural Networks (English); Chinese-subtitled version on Bilibili
+- Karpathy Introduction to Large Language Models（英文原版，建议搭配中文字幕）：https://www.youtube.com/watch?v=zjkBMFhNj_g；B 站中文字幕版：https://search.bilibili.com/all?keyword=Karpathy%20Introduction%20to%20Large%20Language%20Models%20%E4%B8%AD%E6%96%87 / Karpathy video (English; pair it with Chinese subtitles); Chinese-subtitled version on Bilibili
+- Pinecone RAG 系列（英文原版）：https://www.pinecone.io/learn/series/rag/；中文 RAG 指南：https://www.promptingguide.ai/zh/techniques/rag / Pinecone RAG Series (English); Chinese RAG guide
 
 社区与中文资源 / Community and Chinese Resources：
 - ModelScope 魔搭（国产开源模型与教程）：https://modelscope.cn/ / ModelScope (open-source models and tutorials in Chinese)
 - OpenAI 开发者论坛：https://community.openai.com/ / OpenAI Developer Forum
+- Datawhale 中文开源教程：https://github.com/datawhalechina/llm-universe / Datawhale Chinese open-source tutorials
+- Prompt Engineering Guide（中文）：https://www.promptingguide.ai/zh / Prompt Engineering Guide (Chinese)
 
 ---
 
